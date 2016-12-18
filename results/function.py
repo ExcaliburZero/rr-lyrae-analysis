@@ -29,6 +29,9 @@ def main():
 
     # Plot the data
     plt.plot(xs, results)
+    plt.title("RR Lyrae Period Probabilty")
+    plt.xlabel("Period (days)")
+    plt.ylabel("Probability")
 
     # Save the graph
     plt.savefig("graph." + filetype)
